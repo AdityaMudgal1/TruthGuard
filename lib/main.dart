@@ -35,7 +35,7 @@ class _TruthGuardHomeState extends State<TruthGuardHome> {
   bool _isListening = false;
   bool _loading = false;
 
-  final String apiKey = "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"; // 👈 Replace this with your API key
+  final String apiKey = "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"; // 👈 Replace this with your API key
 
   Future<void> detectFakeNews(String text) async {
     setState(() {
